@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.webview.myapplication">
+    package="my.id.awdev">
 
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission-sdk-23 android:name="android.permission.CHANGE_WIFI_STATE" />
@@ -23,13 +23,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
     <activity
-        android:name="com.webview.myapplication.MainActivity"
+        android:name="my.id.awdev.MainActivity"
         android:configChanges="orientation|screenSize"
         android:label="@string/app_name">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+     <!-- Sample AdMob App ID: ca-app-pub-8796768128400226~2343148844 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.1:1025289085908:android:faf2129447d17179b9ac41"
+            android:value="ca-app-pub-8796768128400226~2343148844"/>    
     </activity>
     </application>
 
