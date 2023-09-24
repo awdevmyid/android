@@ -1,0 +1,83 @@
+{
+  "urlCustomizations": [
+    {
+      "url": "https://www.awdev.my.id/",
+      "hostMustMatchUrl": true,
+      "menuItemSelector": {
+        "selectors": [],
+        "menuItemChildrenSelectors": []
+      },
+      "excludedMenuItems": [],
+      "renameMenuItems": [],
+      "staticMenuItems": [
+        {
+          "name": "HOME",
+          "action": {
+            "urlToRedirectTo": "https://www.awdev.my.id"
+          },
+          "children": []
+        },
+        {
+          "name": "BLOG",
+          "action": {
+            "urlToRedirectTo": "https://blog.awdev.my.id"
+          },
+          "children": []
+        },
+        {
+          "name": "SEARCH",
+          "action": {
+            "urlToRedirectTo": "https://us.awdev.my.id/search/cse.html"
+          },
+          "children": []
+        },
+        {
+          "name": "AFRAME AR/VR",
+          "action": {
+            "urlToRedirectTo": "https://aframe.awdev.my.id"
+          },
+          "children": []
+        },
+        {
+          "name": "README",
+          "action": {
+            "urlToRedirectTo": "https://readme.awdev.my.id"
+          },
+          "children": []
+        },
+        {
+          "name": "CODEIGNITER",
+          "action": {
+            "urlToRedirectTo": "https://codeigniter.awdev.my.id"
+          },
+          "children": []
+        },
+        {
+          "name": "HTML THEMA CREATE Free",
+          "action": {
+            "urlToRedirectTo": "https://htmltemplategenerator.awdev.my.id"
+          },
+          "children": []
+        },
+        {
+          "name": "CRYPTO",
+          "action": {
+            "urlToRedirectTo": "https://app.awdev.my.id/search/crypto/index.html"
+          },
+          "children": []
+        },
+        {
+          "name": "FINDER",
+          "action": {
+            "urlToRedirectTo": "https://us.awdev.my.id/GitHub-Finder/"
+          },
+          "children": []
+        }
+      ],
+      "staticAppBarItems": [],
+      "staticNavigationBarItems": [],
+      "hideElementSelectors": [],
+      "hideElementUntilPublishedSelectors": []
+    }
+  ]
+}
