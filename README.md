@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         // loading https://www.geeksforgeeks.org url in the WebView.
 
-        webView.loadUrl("https://www.geeksforgeeks.org");
+        webView.loadUrl("https://blog.awdev.my.id");
  
 
         // this will enable the javascript.
@@ -160,7 +160,9 @@ In AndroidManifest.xml, one needs to include the below permission, in order to a
 
 Output:
 
+![preview.jpg](preview.jpg)
 
+Original Url : https://blog.awdev.my.id
 
 [android](https://github.com/awdevmyid/android) Public
  Java GNU General Public License v3.0 Updated 4 minutes ago
