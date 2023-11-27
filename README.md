@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = findViewById(R.id.web);
  
 
-        // loading https://www.geeksforgeeks.org url in the WebView.
+        // loading https://blog.awdev.my.id url in the WebView.
 
         webView.loadUrl("https://blog.awdev.my.id");
  
